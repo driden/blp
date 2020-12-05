@@ -22,15 +22,16 @@ public class ObjectManager {
         for (InstructionObject instruction: instructions ) {
            switch(instruction.getType()) {
                case WRITE:
-
+                    writeObject(instruction.getSubjectName(), instruction.getObjectName(), instruction.getObjectValue());
                case READ:
+                   readObject(instruction.getSubjectName(), instruction.getObjectName());
                case BAD:
                default:
            }
         }
     }
 
-    private void readObject(String subjectName, String objectName) throws Exception {
+    private void readObject(String subjectName, String objectName) {
         SysSubject subject = getSubject(subjectName);
         SysObject obj = getObject(objectName);
         subject.readObject(obj);
