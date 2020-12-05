@@ -13,18 +13,22 @@ public class ReferenceMonitor {
     private final ObjectManager objectManager = new ObjectManager();
     private final HashMap<String, SysSubject> subjects = new HashMap<>();
 
-    public void executeInstructions(List<Instruction> instructions) {
-        for (Instruction instruction : instructions) {
-            SysObject object = instruction.getObject();
-            SysSubject subject = instruction.getSubject();
-            switch (instruction.getType()) {
-                case WRITE:
-                    if (canWriteObject(subject, object)) executeWrite(subject, object, instruction.getObjectValue());
-                case READ:
-                    if (canReadObject(subject, object)) executeRead(subject, object);
-                case BAD:
-                default:
-            }
+    public Integer executeInstruction(Instruction instruction) {
+        SysObject object = instruction.getObject();
+        SysSubject subject = instruction.getSubject();
+        switch (instruction.getType()) {
+            case WRITE:
+                if (canWriteObject(subject, object))
+                    return executeWrite(subject, object, instruction.getObjectValue());
+                else
+                    return 0;
+            case READ:
+                if (canReadObject(subject, object))
+                    return executeRead(subject, object);
+                else
+                    return 0;
+            default:
+                return 0;
         }
     }
 
@@ -36,11 +40,11 @@ public class ReferenceMonitor {
         return subject.getClearance().dominates(object.getSecurityTag());
     }
 
-    public Integer executeRead(SysSubject subject, SysObject object) {
+    private Integer executeRead(SysSubject subject, SysObject object) {
         return subject.readObject(object);
     }
 
-    public Integer executeWrite(SysSubject subject, SysObject object, Integer objectValue) {
+    private Integer executeWrite(SysSubject subject, SysObject object, Integer objectValue) {
         return subject.writeObject(object, objectValue);
     }
 

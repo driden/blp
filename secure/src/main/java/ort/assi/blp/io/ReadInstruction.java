@@ -9,4 +9,10 @@ public class ReadInstruction extends Instruction {
         super.object = object;
         super.subject = subject;
     }
+
+
+    @Override
+    public String getMessage() {
+        return super.subject.getName() + " reads " + super.object.getName();
+    }
 }

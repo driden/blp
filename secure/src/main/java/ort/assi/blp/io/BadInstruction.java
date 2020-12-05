@@ -12,4 +12,9 @@ public class BadInstruction extends Instruction {
         Instruction that = (Instruction) o;
         return getType() == that.getType();
     }
+
+    @Override
+    public String getMessage() {
+        return "Bad Instruction";
+    }
 }

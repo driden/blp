@@ -23,4 +23,9 @@ public class WriteInstruction extends Instruction {
         return super.hashCode();
     }
 
+    @Override
+    public String getMessage() {
+        return subject.getName() + " writes value " + object.getName() + " to " + object.getName();
+    }
+
 }

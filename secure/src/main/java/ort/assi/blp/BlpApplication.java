@@ -23,12 +23,8 @@ public class BlpApplication implements CommandLineRunner {
         var secureSys = new SecureSystem();
 
         loadData(secureSys);
-        InstructionObject instructionObject = secureSys.getParser();
+        secureSys.run(FileHandler.readFile(filePath));
 
-        var instructionObjects = FileHandler.readFile(filePath)
-                .stream()
-                .map(instructionObject::parse)
-                .collect(Collectors.toList());
     }
 
     private void loadData(SecureSystem secureSystem) {

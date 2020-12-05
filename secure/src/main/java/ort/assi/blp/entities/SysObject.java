@@ -50,4 +50,8 @@ public class SysObject {
     public int hashCode() {
         return Objects.hash(getName());
     }
+
+    public String getStatusMessage(){
+        return name + " has value: " + value.toString();
+    }
 }

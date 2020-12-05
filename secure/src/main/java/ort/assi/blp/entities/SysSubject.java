@@ -37,4 +37,8 @@ public class SysSubject {
         this.temp = object.getValue();
         return this.temp;
     }
+
+    public String getStatusMessage(){
+        return name + " has recently read: " + temp.toString();
+    }
 }

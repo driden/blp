@@ -50,4 +50,6 @@ public abstract class Instruction {
     public int hashCode() {
         return Objects.hash(getType(), getObject(), getSubject(), getObjectValue());
     }
+
+    public abstract String getMessage();
 }
