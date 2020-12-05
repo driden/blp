@@ -40,4 +40,10 @@ public class InstructionParserTests {
         String instruction = "Write       hal   object object";
         assertThat(parser.parse(instruction)).isEqualTo(new BadInstruction());
     }
+
+    @Test
+    public void parsesABadInstructionIfWrongInstruction(){
+        String instruction = "FOO       hal   object object";
+        assertThat(parser.parse(instruction)).isEqualTo(new BadInstruction());
+    }
 }
