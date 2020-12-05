@@ -4,10 +4,20 @@ import ort.assi.blp.io.InstructionObject;
 
 import java.util.HashMap;
 import java.util.List;
+import java.util.Locale;
 
 public class ObjectManager {
     private final HashMap<String, SysSubject> subjects = new HashMap<>();
     private final HashMap<String, SysObject> objects = new HashMap<>();
+
+    public ObjectManager(Context context){
+        for (var object : context.getObjects()){
+            this.objects.put(object.getName().toLowerCase(), object);
+        }
+        for (var subject : context.getSubjects()){
+            this.subjects.put(subject.getName().toLowerCase(), subject);
+        }
+    }
 
 
     public SysSubject getSubject(String subjectName){

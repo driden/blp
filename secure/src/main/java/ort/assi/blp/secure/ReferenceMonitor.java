@@ -1,5 +1,6 @@
 package ort.assi.blp.secure;
 
+import ort.assi.blp.entities.Context;
 import ort.assi.blp.entities.ObjectManager;
 import ort.assi.blp.entities.SysObject;
 import ort.assi.blp.entities.SysSubject;
@@ -8,7 +9,12 @@ import ort.assi.blp.io.InstructionObject;
 import java.util.List;
 
 public class ReferenceMonitor {
-    private final ObjectManager objectManager = new ObjectManager();
+
+    private ObjectManager objectManager;
+
+    public ReferenceMonitor (Context context ){
+        objectManager = new ObjectManager(context);
+    }
 
     public void executeInstructions(List<InstructionObject> instructions) {
         for (InstructionObject instruction : instructions) {
