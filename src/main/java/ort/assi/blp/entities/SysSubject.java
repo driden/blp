@@ -28,4 +28,8 @@ public class SysSubject {
     public void writeObject(SysObject object, Integer value){
         object.setValue(value);
     }
+
+    public void readObject(SysObject object){
+        this.temp = object.getValue();
+    }
 }

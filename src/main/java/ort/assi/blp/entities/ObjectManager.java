@@ -1,10 +1,13 @@
 package ort.assi.blp.entities;
 
-import java.util.HashSet;
-import java.util.Optional;
+import ort.assi.blp.io.InstructionObject;
+
+import java.util.HashMap;
+import java.util.List;
 
 public class ObjectManager {
-    private HashSet<SysObject> objects = new HashSet<>();
+    private final HashMap<String, SysSubject> subjects = new HashMap<>();
+    private final HashMap<String, SysObject> objects = new HashMap<>();
     private static ObjectManager instance = null;
 
     private ObjectManager() {
@@ -15,38 +18,43 @@ public class ObjectManager {
         return instance;
     }
 
-    private HashSet<SysObject> getObjects() {
-        return objects;
-    }
+    public void executeInstructions(List<InstructionObject> instructions){
+        for (InstructionObject instruction: instructions ) {
+           switch(instruction.getType()) {
+               case WRITE:
 
-    private void setObjects(HashSet<SysObject> objects) {
-        this.objects = objects;
-    }
-
-    private Integer readObject(String objectName) throws Exception {
-        Optional<SysObject> obj = findObjectWithName(objectName);
-
-        if (obj.isEmpty())
-            throw new Exception(String.format("there's no object with name %s", objectName));
-
-        return obj.get().getValue();
-    }
-
-    private Optional<SysObject> findObjectWithName(String objectName) {
-        return objects
-                .stream()
-                .filter(obj -> obj.getName().equals(objectName))
-                .findFirst();
-    }
-
-    private void writeObject(String objectName, Integer objectValue) {
-        Optional<SysObject> obj = findObjectWithName(objectName);
-        if (obj.isEmpty()) {
-            SysObject object = new SysObject(objectName);
-            object.setValue(objectValue);
-            this.objects.add(object);
-        } else {
-            obj.get().setValue(objectValue);
+               case READ:
+               case BAD:
+               default:
+           }
         }
+    }
+
+    private void readObject(String subjectName, String objectName) throws Exception {
+        SysSubject subject = getSubject(subjectName);
+        SysObject obj = getObject(objectName);
+        subject.readObject(obj);
+    }
+
+    private void writeObject(String subjectName, String objectName, Integer objectValue) {
+        SysObject object = getObject(objectName);
+        SysSubject subject = getSubject(subjectName);
+        subject.writeObject(object, objectValue);
+    }
+
+    private SysSubject getSubject(String subjectName){
+        if(!subjects.containsKey(subjectName)){
+            SysSubject subj = new SysSubject(subjectName);
+            this.subjects.put(subjectName, subj);
+        }
+        return subjects.get(subjectName);
+    }
+
+    private SysObject getObject(String objectName){
+        if(!objects.containsKey(objectName)){
+            SysObject obj = new SysObject(objectName);
+            this.objects.put(objectName, obj);
+        }
+        return objects.get(objectName);
     }
 }
