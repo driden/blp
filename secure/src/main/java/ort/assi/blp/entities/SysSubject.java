@@ -3,24 +3,16 @@ package ort.assi.blp.entities;
 import ort.assi.blp.secure.SecurityLevel;
 
 public class SysSubject {
-    private SecurityLevel clearance;
+    private final SecurityLevel clearance;
     private Integer temp = 0;
-    private String name;
+    private final String name;
 
     public String getName() {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public Integer getTemp() {
         return temp;
-    }
-
-    public void setTemp(Integer temp) {
-        this.temp = temp;
     }
 
     public SysSubject(String name) {
@@ -36,15 +28,13 @@ public class SysSubject {
         return clearance;
     }
 
-    public void setClearance(SecurityLevel clearance) {
-        this.clearance = clearance;
-    }
-
-    public void writeObject(SysObject object, Integer value) {
+    public Integer writeObject(SysObject object, Integer value) {
         object.setValue(value);
+        return 0;
     }
 
-    public void readObject(SysObject object) {
+    public Integer readObject(SysObject object) {
         this.temp = object.getValue();
+        return this.temp;
     }
 }

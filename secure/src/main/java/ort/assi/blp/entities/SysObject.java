@@ -7,7 +7,7 @@ import java.util.Objects;
 public class SysObject {
     private Integer value = 0;
     private String name;
-    private SecurityLevel securityTag;
+    private final SecurityLevel securityTag;
 
     public SysObject(String name){
         this(name, SecurityLevel.LOW);

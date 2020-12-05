@@ -1,58 +1,101 @@
 package ort.assi.blp.io;
 
+import ort.assi.blp.entities.SysObject;
+import ort.assi.blp.entities.SysSubject;
+import ort.assi.blp.secure.ReferenceMonitor;
+
 import java.util.Objects;
 
-public abstract class InstructionObject {
-    InstructionType type;
-    String objectName;
-    String subjectName;
-    Integer objectValue;
+public class InstructionObject {
+    private final ReferenceMonitor referenceMonitor;
 
-
-    public InstructionType getType() {
-        return type;
+    public InstructionObject(ReferenceMonitor referenceMonitor) {
+        this.referenceMonitor = referenceMonitor;
     }
 
-    public void setType(InstructionType type) {
-        this.type = type;
+
+    public Instruction parse(String instruction) {
+        String sanitized = sanitize(instruction);
+        String[] parts = sanitized.split("\\s+");
+        return parseParts(parts);
     }
 
-    public String getObjectName() {
-        return objectName;
+    private String sanitize(String instruction) {
+        return instruction.toLowerCase();
     }
 
-    public void setObjectName(String objectName) {
-        this.objectName = objectName;
+    private Instruction parseParts(String[] parts) {
+        if ("read".equals(parts[0])) {
+            return parseReadInstruction(parts);
+        } else if ("write".equals(parts[0])) {
+            return parseWriteInstruction(parts);
+        }
+
+        return new BadInstruction();
     }
 
-    public String getSubjectName() {
-        return subjectName;
+    private Instruction parseReadInstruction(String[] parts) {
+        if (parts.length != 3) return new BadInstruction();
+        try {
+            String[] subjectAndObj = parseObjectAndSubjectNames(parts);
+            String subjectName = subjectAndObj[0];
+            String objectNamed = subjectAndObj[1];
+
+            if (!this.referenceMonitor.existsObject(objectNamed))
+                return new BadInstruction();
+
+            if (!this.referenceMonitor.existsSubject(subjectName))
+                return new BadInstruction();
+
+            SysSubject subject = this.referenceMonitor.getSubject(subjectName);
+            SysObject object = this.referenceMonitor.getObject(objectNamed);
+
+            return new ReadInstruction(subject, object);
+        } catch (Exception ignored) {
+            return new BadInstruction();
+        }
     }
 
-    public void setSubjectName(String subjectName) {
-        this.subjectName = subjectName;
+    private Instruction parseWriteInstruction(String[] parts) {
+        if (parts.length != 4) return new BadInstruction();
+        try {
+            Integer parseValue = parseObjectValue(parts);
+            String[] subjectAndObj = parseObjectAndSubjectNames(parts);
+            String subjectName = subjectAndObj[0];
+            String objectNamed = subjectAndObj[1];
+
+            if (!this.referenceMonitor.existsObject(objectNamed))
+                return new BadInstruction();
+
+            if (!this.referenceMonitor.existsSubject(subjectName))
+                return new BadInstruction();
+
+            SysSubject subject = this.referenceMonitor.getSubject(subjectName);
+            SysObject object = this.referenceMonitor.getObject(objectNamed);
+            return new WriteInstruction(subject, object, parseValue);
+        } catch (Exception ignored) {
+            return new BadInstruction();
+        }
     }
 
-    public Integer getObjectValue() {
-        return objectValue;
+    private Integer parseObjectValue(String[] parts) throws NumberFormatException {
+        String numberString = parts[3];
+        return Integer.parseInt(numberString);
     }
 
-    public void setObjectValue(Integer objectValue) {
-        this.objectValue = objectValue;
+    private String[] parseObjectAndSubjectNames(String[] parts) throws Exception {
+        String subject = parts[1];
+        String object = parts[2];
+
+        validateString(subject);
+        validateString(object);
+
+        return new String[]{subject, object};
     }
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        InstructionObject that = (InstructionObject) o;
-        return getType() == that.getType() &&
-                getObjectName().equals(that.getObjectName()) &&
-                getSubjectName().equals(that.getSubjectName());
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(getType(), getObjectName(), getSubjectName(), getObjectValue());
+    private void validateString(String subject) throws Exception {
+        if (Objects.isNull(subject) || subject.isEmpty()) {
+            throw new Exception("Subject is null or empty");
+        }
     }
 }

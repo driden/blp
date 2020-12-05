@@ -1,6 +1,6 @@
 package ort.assi.blp.io;
 
-public class BadInstruction extends InstructionObject {
+public class BadInstruction extends Instruction {
     public BadInstruction() {
         type = InstructionType.BAD;
     }
@@ -9,7 +9,7 @@ public class BadInstruction extends InstructionObject {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        InstructionObject that = (InstructionObject) o;
+        Instruction that = (Instruction) o;
         return getType() == that.getType();
     }
 }

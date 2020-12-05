@@ -3,47 +3,43 @@ package ort.assi.blp;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import ort.assi.blp.entities.Context;
-import ort.assi.blp.entities.ObjectManager;
-import ort.assi.blp.entities.SysObject;
-import ort.assi.blp.entities.SysSubject;
 import ort.assi.blp.handlers.FileHandler;
+import ort.assi.blp.io.InstructionObject;
+import ort.assi.blp.secure.SecureSystem;
 import ort.assi.blp.secure.SecurityLevel;
 
-import java.util.HashSet;
-import java.util.Set;
+import java.util.stream.Collectors;
 
 @SpringBootApplication
 public class BlpApplication implements CommandLineRunner {
 
-	public static void main(String[] args) {
-		SpringApplication.run(BlpApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(BlpApplication.class, args);
+    }
 
-	@Override
-	public void run(String... args) throws Exception {
-		var filePath = args[0];
-		var context = getStartUpContext();
-		var instructionObjects = FileHandler.readFile(filePath);
-	}
+    @Override
+    public void run(String... args) throws Exception {
+        var filePath = args[0];
+        var secureSys = new SecureSystem();
 
-	private Context getStartUpContext(){
-		var objects = new HashSet<SysObject>();
-		var lobj = new SysObject("lobj", SecurityLevel.LOW);
-		var mobj = new SysObject("mobj", SecurityLevel.MEDIUM);
-		var hobj = new SysObject("hobj", SecurityLevel.HIGH);
-		objects.add(lobj);
-		objects.add(mobj);
-		objects.add(hobj);
+        loadData(secureSys);
+        InstructionObject instructionObject = secureSys.getParser();
 
-		var subjects = new HashSet<SysSubject>();
-		var lyle = new SysSubject("lyle", SecurityLevel.LOW);
-		var moe = new SysSubject("moe", SecurityLevel.MEDIUM);
-		var hal = new SysSubject("hal", SecurityLevel.HIGH);
-		subjects.add(lyle);
-		subjects.add(moe);
-		subjects.add(hal);
+        var instructionObjects = FileHandler.readFile(filePath)
+                .stream()
+                .map(instructionObject::parse)
+                .collect(Collectors.toList());
+    }
 
-		return new Context(objects, subjects);
-	}
+    private void loadData(SecureSystem secureSystem) {
+
+        secureSystem.createNewObject("lobj", SecurityLevel.LOW);
+        secureSystem.createNewObject("mobj", SecurityLevel.MEDIUM);
+        secureSystem.createNewObject("hobj", SecurityLevel.HIGH);
+
+        secureSystem.createSubject("lyle", SecurityLevel.LOW);
+        secureSystem.createSubject("moe", SecurityLevel.MEDIUM);
+        secureSystem.createSubject("hal", SecurityLevel.HIGH);
+
+    }
 }

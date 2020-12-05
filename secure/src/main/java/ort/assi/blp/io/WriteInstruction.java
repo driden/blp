@@ -1,10 +1,19 @@
 package ort.assi.blp.io;
 
-public class WriteInstruction extends InstructionObject{
+import ort.assi.blp.entities.SysObject;
+import ort.assi.blp.entities.SysSubject;
+
+public class WriteInstruction extends Instruction {
+    public WriteInstruction(SysSubject subject, SysObject object, Integer objectValue) {
+        super.type = InstructionType.WRITE;
+        super.object = object;
+        super.subject = subject;
+        super.objectValue = objectValue;
+    }
 
     @Override
     public boolean equals(Object o) {
-        InstructionObject that = (InstructionObject) o;
+        Instruction that = (Instruction) o;
         return super.equals(o) &&
                 getObjectValue().equals(that.getObjectValue());
     }
@@ -14,10 +23,4 @@ public class WriteInstruction extends InstructionObject{
         return super.hashCode();
     }
 
-    public WriteInstruction(String objectName, String subjectName, Integer objectValue) {
-        super.type = InstructionType.WRITE;
-        super.objectName = objectName;
-        super.subjectName = subjectName;
-        super.objectValue = objectValue;
-    }
 }

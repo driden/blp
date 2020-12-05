@@ -1,9 +1,12 @@
 package ort.assi.blp.io;
 
-public class ReadInstruction extends InstructionObject {
-    public ReadInstruction(String objectName, String subjectName) {
+import ort.assi.blp.entities.SysObject;
+import ort.assi.blp.entities.SysSubject;
+
+public class ReadInstruction extends Instruction {
+    public ReadInstruction(SysSubject subject, SysObject object) {
         super.type = InstructionType.READ;
-        super.objectName = objectName;
-        super.subjectName = subjectName;
+        super.object = object;
+        super.subject = subject;
     }
 }
