@@ -1,13 +1,21 @@
 package ort.assi.blp.entities;
 
+import ort.assi.blp.secure.SecurityLevel;
+
 import java.util.Objects;
 
 public class SysObject {
     private Integer value = 0;
     private String name;
+    private SecurityLevel securityTag;
 
     public SysObject(String name){
+        this(name, SecurityLevel.LOW);
+    }
+
+    public SysObject(String name, SecurityLevel level){
         this.name = name;
+        this.securityTag = level;
     }
 
     public Integer getValue() {
@@ -22,8 +30,12 @@ public class SysObject {
         return name;
     }
 
-    public void setName(String name) {
+    public void setName(String name, SecurityLevel tag) {
         this.name = name;
+    }
+
+    public SecurityLevel getSecurityTag() {
+        return securityTag;
     }
 
     @Override

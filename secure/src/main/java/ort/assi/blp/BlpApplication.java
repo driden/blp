@@ -17,6 +17,5 @@ public class BlpApplication implements CommandLineRunner {
 	public void run(String... args) throws Exception {
 		var filePath = args[0];
 		var instructionObjects = FileHandler.readFile(filePath);
-		ObjectManager.getInstance().executeInstructions(instructionObjects);
 	}
 }
