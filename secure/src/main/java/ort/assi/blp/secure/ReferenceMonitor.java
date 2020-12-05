@@ -7,6 +7,7 @@ import ort.assi.blp.io.Instruction;
 
 import java.util.HashMap;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class ReferenceMonitor {
 
@@ -70,5 +71,13 @@ public class ReferenceMonitor {
 
     public void createNewObject(String name, SecurityLevel level){
         this.objectManager.createObject(name,level);
+    }
+
+    public List<SysSubject> getAllSubjects(){
+        return subjects.values().stream().collect(Collectors.toUnmodifiableList());
+    }
+
+    public List<SysObject> getAllObjects(){
+        return this.objectManager.getAllObjects();
     }
 }

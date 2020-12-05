@@ -25,7 +25,7 @@ public class WriteInstruction extends Instruction {
 
     @Override
     public String getMessage() {
-        return subject.getName() + " writes value " + object.getName() + " to " + object.getName();
+        return subject.getName() + " writes value " + object.getValue() + " to " + object.getName();
     }
 
 }

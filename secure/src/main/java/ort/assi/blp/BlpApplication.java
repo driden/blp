@@ -23,7 +23,7 @@ public class BlpApplication implements CommandLineRunner {
         var secureSys = new SecureSystem();
 
         loadData(secureSys);
-        secureSys.run(FileHandler.readFile(filePath));
+        secureSys.run(FileHandler.readFile(filePath), filePath);
 
     }
 

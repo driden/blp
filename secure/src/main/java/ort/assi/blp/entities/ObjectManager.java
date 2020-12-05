@@ -3,6 +3,8 @@ package ort.assi.blp.entities;
 import ort.assi.blp.secure.SecurityLevel;
 
 import java.util.HashMap;
+import java.util.List;
+import java.util.stream.Collectors;
 
 public class ObjectManager {
     private final HashMap<String, SysObject> objects = new HashMap<>();
@@ -20,5 +22,9 @@ public class ObjectManager {
 
     public Boolean existsObject(String name){
         return this.objects.containsKey(name);
+    }
+
+    public List<SysObject> getAllObjects() {
+        return objects.values().stream().collect(Collectors.toUnmodifiableList());
     }
 }

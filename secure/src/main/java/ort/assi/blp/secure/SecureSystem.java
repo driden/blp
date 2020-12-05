@@ -1,7 +1,6 @@
 package ort.assi.blp.secure;
 
 import ort.assi.blp.entities.SysSubject;
-import ort.assi.blp.handlers.FileHandler;
 import ort.assi.blp.io.Instruction;
 import ort.assi.blp.io.InstructionObject;
 
@@ -15,18 +14,18 @@ public class SecureSystem {
     private InstructionObject parser;
     private final HashMap<String, SysSubject> subjects = new HashMap<>();
 
-    public SecureSystem(){
+    public SecureSystem() {
         referenceMonitor = new ReferenceMonitor();
         parser = new InstructionObject(referenceMonitor);
     }
 
-    public void createSubject(String name, SecurityLevel clearance){
+    public void createSubject(String name, SecurityLevel clearance) {
         SysSubject subj = new SysSubject(name, clearance);
-        this.subjects.put(name,subj );
+        this.subjects.put(name, subj);
         this.referenceMonitor.addSubject(subj);
     }
 
-    public void createNewObject(String name, SecurityLevel tag){
+    public void createNewObject(String name, SecurityLevel tag) {
         this.referenceMonitor.createNewObject(name, tag);
     }
 
@@ -34,21 +33,22 @@ public class SecureSystem {
         return subjects.get(subjectName);
     }
 
-    public void printState(Instruction instruction){
+    public void printState(Instruction instruction) {
         System.out.println(instruction.getMessage());
         System.out.println("The current state is:");
-        //TODO acceder a los objetos e imprimir mensaje (método en el objeto getStatusMessage())
-        //TODO acceder a los sujetos e imprimir mensaje (método en el sujeto getStatusMessage())
+        referenceMonitor.getAllObjects().forEach(object -> System.out.println("\t" + object.getStatusMessage()));
+        referenceMonitor.getAllSubjects().forEach(subject -> System.out.println("\t" +subject.getStatusMessage()));
+        System.out.println();
     }
 
-    public void run(ArrayList<String> readFile) {
+    public void run(ArrayList<String> readFile, String filename) {
         var instructions = readFile
                 .stream()
                 .map(parser::parse)
                 .collect(Collectors.toList());
 
-        System.out.println("Processing instructions... ");
-        for (var instruction : instructions){
+        System.out.println("Reading from file: " + filename);
+        for (var instruction : instructions) {
             referenceMonitor.executeInstruction(instruction);
             printState(instruction);
         }
