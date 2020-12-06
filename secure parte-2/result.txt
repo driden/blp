@@ -1,0 +1,2 @@
+- Clase que genera instrucciones dependiendo de quien ejecuta
+  - Función para parsear secuencia 

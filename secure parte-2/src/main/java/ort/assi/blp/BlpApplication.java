@@ -1,12 +1,20 @@
 package ort.assi.blp;
 
+import org.apache.commons.io.FileUtils;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import ort.assi.blp.context.ReceiveContext;
+import ort.assi.blp.context.TransferContext;
 import ort.assi.blp.covertchannel.SequenceHandler;
+import ort.assi.blp.entities.SysObject;
+import ort.assi.blp.io.instruction.CreateInstruction;
+import ort.assi.blp.io.instruction.DestroyInstruction;
+import ort.assi.blp.io.instruction.WriteInstruction;
 import ort.assi.blp.secure.SecureSystem;
 import ort.assi.blp.secure.SecurityLevel;
 
+import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -14,6 +22,8 @@ import java.util.BitSet;
 
 @SpringBootApplication
 public class BlpApplication implements CommandLineRunner {
+    private TransferContext transferContext;
+    private ReceiveContext receiveContext;
 
     public static void main(String[] args) {
         SpringApplication.run(BlpApplication.class, args);
@@ -29,17 +39,43 @@ public class BlpApplication implements CommandLineRunner {
 
         var sequenceFile = args.length > 1 ? args[1] : "test-files/secuencia.txt";
         String sequence = readSequence(sequenceFile);
-        BitSet bitsToTransfer = readFileToTransfer(fileToTransfer);
-        var secureSys = new SecureSystem(new SequenceHandler(sequence), bitsToTransfer);
+        transferContext = new TransferContext(readFileToTransfer(fileToTransfer));
+        receiveContext = new ReceiveContext("result.txt");
+        var secureSys = new SecureSystem(new SequenceHandler(sequence));
         loadSecureSystemData(secureSys);
+        secureSys.run();
+        receiveContext.writeFile();
     }
 
     private void loadSecureSystemData(SecureSystem secureSystem) {
-        secureSystem.createSubject("lyle", SecurityLevel.LOW, ()-> 1);
-        secureSystem.createSubject("moe", SecurityLevel.MEDIUM, ()-> 0);
-        secureSystem.createSubject("hal", SecurityLevel.HIGH, ()-> {
+        var lyle = secureSystem.createSubject("lyle", SecurityLevel.LOW);
+        secureSystem.createSubject("moe", SecurityLevel.MEDIUM);
+        var hal = secureSystem.createSubject("hal", SecurityLevel.HIGH);
 
-            return 1;
+        lyle.setFunction(() -> {
+            if (lyle.getCanAct()){
+                var createResult = secureSystem.execute(
+                        new CreateInstruction(lyle, new SysObject(secureSystem.TRANSFER_OBJ)));
+                var bit = createResult == 1;
+                receiveContext.receive(bit);
+                secureSystem.execute(new DestroyInstruction(lyle, new SysObject(secureSystem.TRANSFER_OBJ)));
+                return 1;
+            }
+            return 0;
+        });
+
+        hal.setFunction(() -> {
+            if (hal.getCanAct()){
+                if (transferContext.hasNext()){
+                    if (!transferContext.getNext()){
+                        secureSystem.execute(
+                                new CreateInstruction(hal, new SysObject(secureSystem.TRANSFER_OBJ)));
+                    }
+                }else{
+                    return 1;
+                }
+            }
+            return 0;
         });
 
     }
@@ -54,7 +90,7 @@ public class BlpApplication implements CommandLineRunner {
     }
 
     private BitSet readFileToTransfer(String path) throws IOException {
-        return BitSet.valueOf(Files.readAllBytes(Path.of(path)));
+        return BitSet.valueOf(FileUtils.readFileToByteArray(new File(path)));
     }
 
 }

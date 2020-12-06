@@ -9,14 +9,18 @@ public class SysSubject {
     private final SecurityLevel clearance;
     private Integer temp = 0;
     private final String name;
+
+    public Boolean getCanAct() {
+        return canAct;
+    }
+
     private Boolean canAct = false;
 
     public void setFunction(Supplier<Integer> function) {
         this.function = function;
     }
 
-    private Supplier<Integer> function;
-
+    private Supplier<Integer> function = () -> -1;
 
     public String getName() {
         return name;
@@ -58,8 +62,8 @@ public class SysSubject {
         return name + " has recently read: " + temp.toString();
     }
 
-    public void run(){
-        this.function.get();
+    public Integer run(){
+        return this.function.get();
     }
 
     public void setCanAct(boolean b) {

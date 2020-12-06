@@ -95,8 +95,9 @@ public class ReferenceMonitor {
         return 0;
     }
 
-    private Integer executeDestroyObject(SysSubject subject, SysObject object) {
-        if (!object.getSecurityTag().dominates(subject.getClearance()) || !existsObject(object.getName()))
+    private Integer executeDestroyObject(SysSubject subject, SysObject sObject) {
+        var object = objectManager.getObject(sObject.getName());
+        if (object == null || !object.getSecurityTag().dominates(subject.getClearance()))
             return 0;
 
         this.objectManager.destroyObject(object);

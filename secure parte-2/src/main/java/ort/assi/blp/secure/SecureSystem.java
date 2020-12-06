@@ -19,20 +19,20 @@ public class SecureSystem {
     private InstructionObject parser;
     private final HashMap<String, SysSubject> subjects = new HashMap<>();
     private final SequenceHandler sequenceHandler;
-    private final BitSet bits;
     public static final String SYNC_OBJ = "objSync";
+    public static final String TRANSFER_OBJ = "obj";
 
-    public SecureSystem(SequenceHandler sequenceHandler, BitSet bitsToTransfer) {
+    public SecureSystem(SequenceHandler sequenceHandler) {
         referenceMonitor = new ReferenceMonitor();
         parser = new InstructionObject(referenceMonitor);
         this.sequenceHandler = sequenceHandler;
-        this.bits = bitsToTransfer;
     }
 
-    public void createSubject(String name, SecurityLevel clearance, Supplier<Integer> function) {
-        SysSubject subj = new SysSubject(name, clearance, function);
+    public SysSubject createSubject(String name, SecurityLevel clearance) {
+        SysSubject subj = new SysSubject(name, clearance);
         this.subjects.put(name, subj);
         this.referenceMonitor.addSubject(subj);
+        return subj;
     }
 
     public SysSubject getSubject(String subjectName) {
@@ -52,15 +52,24 @@ public class SecureSystem {
         var lyle = getSubject("lyle");
 
         char c;
+
         while ((c = sequenceHandler.getNextSubject()) != ' ') {
             switch (c) {
                 case 'H':
                     var createResult = referenceMonitor.executeInstruction(
                             new CreateInstruction(hal, new SysObject(SYNC_OBJ)));
                     hal.setCanAct(createResult == 1);
-                    hal.run();
+                    var runResult = hal.run();
+                    if (runResult == 1) {
+                        referenceMonitor.executeInstruction(
+                                new DestroyInstruction(hal, new SysObject(SYNC_OBJ)));
+                    }
                     break;
                 case 'L':
+                    var destroyResult = referenceMonitor.executeInstruction(
+                            new DestroyInstruction(lyle, new SysObject(SYNC_OBJ)));
+                    lyle.setCanAct(destroyResult == 1);
+                    lyle.run();
                     break;
                 default:
                     ;
@@ -68,32 +77,7 @@ public class SecureSystem {
         }
     }
 
-    public Instruction[] sendBit0() {
-        var hal = getSubject("hal");
-
-        return new Instruction[]{
-                new RunInstruction(hal),
-                new CreateInstruction(hal, new SysObject("obj"))
-        };
-    }
-
-    public Instruction[] sendBit1() {
-        var hal = getSubject("hal");
-
-        return new Instruction[]{
-                new RunInstruction(hal),
-        };
-    }
-
-    public Instruction[] readBit() {
-        var lyle = getSubject("lyle");
-        SysObject obj = new SysObject("obj");
-        return new Instruction[]{
-                new CreateInstruction(lyle, obj),
-                new WriteInstruction(lyle, obj, 1),
-                new DestroyInstruction(lyle, obj),
-                new RunInstruction(lyle),
-                new CreateInstruction(lyle, obj),
-        };
+    public Integer execute(Instruction instruction) {
+        return this.referenceMonitor.executeInstruction(instruction);
     }
 }
