@@ -19,19 +19,13 @@ public class BlpApplication implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        var filePath = args[0];
         var secureSys = new SecureSystem();
 
         loadData(secureSys);
-        secureSys.run(FileHandler.readFile(filePath), filePath);
 
     }
 
     private void loadData(SecureSystem secureSystem) {
-
-        secureSystem.createNewObject("lobj", SecurityLevel.LOW);
-        secureSystem.createNewObject("mobj", SecurityLevel.MEDIUM);
-        secureSystem.createNewObject("hobj", SecurityLevel.HIGH);
 
         secureSystem.createSubject("lyle", SecurityLevel.LOW);
         secureSystem.createSubject("moe", SecurityLevel.MEDIUM);
