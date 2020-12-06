@@ -2,10 +2,19 @@ package ort.assi.blp.entities;
 
 import ort.assi.blp.secure.SecurityLevel;
 
+import java.util.function.Consumer;
+
 public class SysSubject {
     private final SecurityLevel clearance;
     private Integer temp = 0;
     private final String name;
+
+    public void setFunction(Consumer<Integer> function) {
+        this.function = function;
+    }
+
+    private Consumer<Integer> function;
+
 
     public String getName() {
         return name;
@@ -40,5 +49,9 @@ public class SysSubject {
 
     public String getStatusMessage(){
         return name + " has recently read: " + temp.toString();
+    }
+
+    public void run(Integer i){
+        this.function.accept(i);
     }
 }

@@ -1,7 +1,9 @@
 package ort.assi.blp.secure;
 
 import ort.assi.blp.covertchannel.SequenceHandler;
+import ort.assi.blp.entities.SysObject;
 import ort.assi.blp.entities.SysSubject;
+import ort.assi.blp.io.instruction.CreateInstruction;
 import ort.assi.blp.io.instruction.Instruction;
 import ort.assi.blp.io.InstructionObject;
 
@@ -31,10 +33,6 @@ public class SecureSystem {
         this.referenceMonitor.addSubject(subj);
     }
 
-    public void createNewObject(String name, SecurityLevel tag) {
-        this.referenceMonitor.createNewObject(name, tag);
-    }
-
     public SysSubject getSubject(String subjectName) {
         return subjects.get(subjectName);
     }
@@ -47,10 +45,21 @@ public class SecureSystem {
         System.out.println();
     }
 
-    public void run(ArrayList<String> readFile, String filename) {
-        var instructions = readFile
-                .stream()
-                .map(parser::parse)
-                .collect(Collectors.toList());
+    public void run() {
+        var hal = getSubject("hal");
+        var lyle = getSubject("lyle");
+        char c;
+        while ((c = sequenceHandler.getNextSubject())!= ' '){
+            switch (c){
+                case 'H':
+                    var createResult = referenceMonitor.executeInstruction(
+                            new CreateInstruction(hal, new SysObject("objSync")));
+                    hal.run(createResult);
+                    break;
+                case 'L':
+                    break;
+                default:;
+            }
+        }
     }
 }
