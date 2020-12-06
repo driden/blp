@@ -28,6 +28,14 @@ public class ReferenceMonitor {
                     return executeRead(subject, object);
                 else
                     return 0;
+            case CREATE:
+                if (!existsObject(object.getName()))
+                    return executeCreateObject(subject, object);
+                return 0;
+            case DESTROY:
+                return executeDestroyObject(subject, object);
+            case RUN:
+                return runSubject(subject);
             default:
                 return 0;
         }
@@ -49,11 +57,11 @@ public class ReferenceMonitor {
         return subject.writeObject(object, objectValue);
     }
 
-    public Boolean existsObject(String name){
+    public Boolean existsObject(String name) {
         return this.objectManager.existsObject(name);
     }
 
-    public SysObject getObject(String name){
+    public SysObject getObject(String name) {
         return this.objectManager.getObject(name);
     }
 
@@ -61,23 +69,40 @@ public class ReferenceMonitor {
         return subjects.containsKey(subjectName);
     }
 
-    public SysSubject getSubject(String name){
+    public SysSubject getSubject(String name) {
         return this.subjects.get(name);
     }
 
-    public void addSubject(SysSubject subject){
+    public void addSubject(SysSubject subject) {
         this.subjects.put(subject.getName(), subject);
     }
 
-    public void createNewObject(String name, SecurityLevel level){
-        this.objectManager.createObject(name,level);
+    public void createNewObject(String name, SecurityLevel level) {
+        this.objectManager.createObject(name, level);
     }
 
-    public List<SysSubject> getAllSubjects(){
+    public List<SysSubject> getAllSubjects() {
         return subjects.values().stream().collect(Collectors.toUnmodifiableList());
     }
 
-    public List<SysObject> getAllObjects(){
+    public List<SysObject> getAllObjects() {
         return this.objectManager.getAllObjects();
+    }
+
+    private Integer executeCreateObject(SysSubject subject, SysObject object) {
+        this.objectManager.createObject(object.getName(), subject.getClearance());
+        return 1;
+    }
+
+    private Integer executeDestroyObject(SysSubject subject, SysObject object) {
+        if (!object.getSecurityTag().dominates(subject.getClearance()) || !existsObject(object.getName()))
+            return 0;
+
+        this.objectManager.destroyObject(object);
+        return 1;
+    }
+
+    private Integer runSubject(SysSubject subject) {
+        return -1;
     }
 }

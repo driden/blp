@@ -16,7 +16,7 @@ public class InstructionObject {
 
     public Instruction parse(String instruction) {
         String sanitized = sanitize(instruction);
-        String[] parts = sanitized.split("\\s+");
+        String[] parts = sanitized.split("\\s");
         return parseParts(parts);
     }
 
@@ -29,6 +29,12 @@ public class InstructionObject {
             return parseReadInstruction(parts);
         } else if ("write".equals(parts[0])) {
             return parseWriteInstruction(parts);
+        } else if ("run".equals(parts[0])) {
+            return parseRunInstruction(parts);
+        } else if ("create".equals(parts[0])) {
+            return parseCreateInstruction(parts);
+        } else if ("destroy".equals(parts[0])) {
+            return parseDestroyInstruction(parts);
         }
 
         return new BadInstruction();
@@ -98,4 +104,38 @@ public class InstructionObject {
             throw new Exception("Subject is null or empty");
         }
     }
+
+    private Instruction parseDestroyInstruction(String[] parts) {
+        try {
+            String[] subjectAndObj = parseObjectAndSubjectNames(parts);
+            String subjectName = subjectAndObj[0];
+            String objectNamed = subjectAndObj[1];
+            SysSubject subject = this.referenceMonitor.getSubject(subjectName);
+            SysObject object = this.referenceMonitor.getObject(objectNamed);
+            return new DestroyInstruction(subject, object);
+        } catch (Exception ignored) {
+        }
+        return new BadInstruction();
+    }
+
+    private Instruction parseCreateInstruction(String[] parts) {
+        try {
+            String[] subjectAndObj = parseObjectAndSubjectNames(parts);
+            String subjectName = subjectAndObj[0];
+            String objectNamed = subjectAndObj[1];
+            SysSubject subject = this.referenceMonitor.getSubject(subjectName);
+            SysObject object = this.referenceMonitor.getObject(objectNamed);
+            return new CreateInstruction(subject, object);
+        } catch (Exception ignored) {
+        }
+        return new BadInstruction();
+    }
+
+    private Instruction parseRunInstruction(String[] parts) {
+        String subjectName = parts[1];
+        SysSubject subject = this.referenceMonitor.getSubject(subjectName);
+        return new RunInstruction(subject);
+    }
+
+
 }

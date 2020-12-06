@@ -20,11 +20,15 @@ public class ObjectManager {
         this.objects.putIfAbsent(name, new SysObject(name, level));
     }
 
-    public Boolean existsObject(String name){
+    public Boolean existsObject(String name) {
         return this.objects.containsKey(name);
     }
 
     public List<SysObject> getAllObjects() {
         return objects.values().stream().collect(Collectors.toUnmodifiableList());
+    }
+
+    public void destroyObject(SysObject object) {
+        this.objects.remove(object.getName());
     }
 }
