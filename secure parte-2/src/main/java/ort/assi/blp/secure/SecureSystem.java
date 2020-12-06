@@ -10,6 +10,7 @@ import java.util.ArrayList;
 import java.util.BitSet;
 import java.util.HashMap;
 import java.util.List;
+import java.util.function.Supplier;
 import java.util.stream.Collectors;
 
 public class SecureSystem {
@@ -19,6 +20,7 @@ public class SecureSystem {
     private final HashMap<String, SysSubject> subjects = new HashMap<>();
     private final SequenceHandler sequenceHandler;
     private final BitSet bits;
+    public static final String SYNC_OBJ = "objSync";
 
     public SecureSystem(SequenceHandler sequenceHandler, BitSet bitsToTransfer) {
         referenceMonitor = new ReferenceMonitor();
@@ -27,8 +29,8 @@ public class SecureSystem {
         this.bits = bitsToTransfer;
     }
 
-    public void createSubject(String name, SecurityLevel clearance) {
-        SysSubject subj = new SysSubject(name, clearance);
+    public void createSubject(String name, SecurityLevel clearance, Supplier<Integer> function) {
+        SysSubject subj = new SysSubject(name, clearance, function);
         this.subjects.put(name, subj);
         this.referenceMonitor.addSubject(subj);
     }
@@ -54,8 +56,9 @@ public class SecureSystem {
             switch (c) {
                 case 'H':
                     var createResult = referenceMonitor.executeInstruction(
-                            new CreateInstruction(hal, new SysObject("objSync")));
-                    hal.run(createResult);
+                            new CreateInstruction(hal, new SysObject(SYNC_OBJ)));
+                    hal.setCanAct(createResult == 1);
+                    hal.run();
                     break;
                 case 'L':
                     break;
@@ -64,7 +67,6 @@ public class SecureSystem {
             }
         }
     }
-
 
     public Instruction[] sendBit0() {
         var hal = getSubject("hal");

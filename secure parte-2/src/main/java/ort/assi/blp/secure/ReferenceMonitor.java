@@ -29,9 +29,7 @@ public class ReferenceMonitor {
                 else
                     return 0;
             case CREATE:
-                if (!existsObject(object.getName()))
-                    return executeCreateObject(subject, object);
-                return 0;
+                return executeCreateObject(subject, object);
             case DESTROY:
                 return executeDestroyObject(subject, object);
             case RUN:
@@ -90,8 +88,11 @@ public class ReferenceMonitor {
     }
 
     private Integer executeCreateObject(SysSubject subject, SysObject object) {
-        this.objectManager.createObject(object.getName(), subject.getClearance());
-        return 1;
+        if (!existsObject(object.getName())) {
+            this.objectManager.createObject(object.getName(), subject.getClearance());
+            return 1;
+        }
+        return 0;
     }
 
     private Integer executeDestroyObject(SysSubject subject, SysObject object) {
@@ -103,6 +104,7 @@ public class ReferenceMonitor {
     }
 
     private Integer runSubject(SysSubject subject) {
+        subject.run();
         return -1;
     }
 }

@@ -3,17 +3,19 @@ package ort.assi.blp.entities;
 import ort.assi.blp.secure.SecurityLevel;
 
 import java.util.function.Consumer;
+import java.util.function.Supplier;
 
 public class SysSubject {
     private final SecurityLevel clearance;
     private Integer temp = 0;
     private final String name;
+    private Boolean canAct = false;
 
-    public void setFunction(Consumer<Integer> function) {
+    public void setFunction(Supplier<Integer> function) {
         this.function = function;
     }
 
-    private Consumer<Integer> function;
+    private Supplier<Integer> function;
 
 
     public String getName() {
@@ -31,6 +33,11 @@ public class SysSubject {
     public SysSubject(String name, SecurityLevel clearance) {
         this.name = name;
         this.clearance = clearance;
+    }
+
+    public SysSubject(String name, SecurityLevel clearance, Supplier<Integer> function) {
+        this(name,clearance);
+        this.function = function;
     }
 
     public SecurityLevel getClearance() {
@@ -51,7 +58,11 @@ public class SysSubject {
         return name + " has recently read: " + temp.toString();
     }
 
-    public void run(Integer i){
-        this.function.accept(i);
+    public void run(){
+        this.function.get();
+    }
+
+    public void setCanAct(boolean b) {
+        this.canAct = b;
     }
 }

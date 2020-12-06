@@ -35,9 +35,13 @@ public class BlpApplication implements CommandLineRunner {
     }
 
     private void loadSecureSystemData(SecureSystem secureSystem) {
-        secureSystem.createSubject("lyle", SecurityLevel.LOW);
-        secureSystem.createSubject("moe", SecurityLevel.MEDIUM);
-        secureSystem.createSubject("hal", SecurityLevel.HIGH);
+        secureSystem.createSubject("lyle", SecurityLevel.LOW, ()-> 1);
+        secureSystem.createSubject("moe", SecurityLevel.MEDIUM, ()-> 0);
+        secureSystem.createSubject("hal", SecurityLevel.HIGH, ()-> {
+
+            return 1;
+        });
+
     }
 
     private String readSequence(String sequencePath) throws IOException {
