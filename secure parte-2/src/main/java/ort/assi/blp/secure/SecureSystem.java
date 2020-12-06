@@ -1,10 +1,12 @@
 package ort.assi.blp.secure;
 
+import ort.assi.blp.covertchannel.SequenceHandler;
 import ort.assi.blp.entities.SysSubject;
 import ort.assi.blp.io.instruction.Instruction;
 import ort.assi.blp.io.InstructionObject;
 
 import java.util.ArrayList;
+import java.util.BitSet;
 import java.util.HashMap;
 import java.util.stream.Collectors;
 
@@ -13,10 +15,14 @@ public class SecureSystem {
 
     private InstructionObject parser;
     private final HashMap<String, SysSubject> subjects = new HashMap<>();
+    private final SequenceHandler sequenceHandler;
+    private final BitSet bits;
 
-    public SecureSystem() {
+    public SecureSystem(SequenceHandler sequenceHandler, BitSet bitsToTransfer) {
         referenceMonitor = new ReferenceMonitor();
         parser = new InstructionObject(referenceMonitor);
+        this.sequenceHandler = sequenceHandler;
+        this.bits = bitsToTransfer;
     }
 
     public void createSubject(String name, SecurityLevel clearance) {
