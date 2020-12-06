@@ -1,4 +1,4 @@
-package ort.assi.blp.io;
+package ort.assi.blp.io.instruction;
 
 import ort.assi.blp.entities.SysObject;
 import ort.assi.blp.entities.SysSubject;

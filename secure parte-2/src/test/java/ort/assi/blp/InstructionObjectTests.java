@@ -5,10 +5,10 @@ import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 import ort.assi.blp.entities.SysObject;
 import ort.assi.blp.entities.SysSubject;
-import ort.assi.blp.io.BadInstruction;
+import ort.assi.blp.io.instruction.BadInstruction;
 import ort.assi.blp.io.InstructionObject;
-import ort.assi.blp.io.ReadInstruction;
-import ort.assi.blp.io.WriteInstruction;
+import ort.assi.blp.io.instruction.ReadInstruction;
+import ort.assi.blp.io.instruction.WriteInstruction;
 import ort.assi.blp.secure.ReferenceMonitor;
 
 import static org.assertj.core.api.Assertions.assertThat;

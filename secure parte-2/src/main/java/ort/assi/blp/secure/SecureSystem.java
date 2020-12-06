@@ -1,7 +1,7 @@
 package ort.assi.blp.secure;
 
 import ort.assi.blp.entities.SysSubject;
-import ort.assi.blp.io.Instruction;
+import ort.assi.blp.io.instruction.Instruction;
 import ort.assi.blp.io.InstructionObject;
 
 import java.util.ArrayList;
@@ -46,11 +46,5 @@ public class SecureSystem {
                 .stream()
                 .map(parser::parse)
                 .collect(Collectors.toList());
-
-        System.out.println("Reading from file: " + filename);
-        for (var instruction : instructions) {
-            referenceMonitor.executeInstruction(instruction);
-            printState(instruction);
-        }
     }
 }

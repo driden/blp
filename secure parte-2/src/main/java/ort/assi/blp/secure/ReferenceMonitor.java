@@ -3,7 +3,7 @@ package ort.assi.blp.secure;
 import ort.assi.blp.entities.ObjectManager;
 import ort.assi.blp.entities.SysObject;
 import ort.assi.blp.entities.SysSubject;
-import ort.assi.blp.io.Instruction;
+import ort.assi.blp.io.instruction.Instruction;
 
 import java.util.HashMap;
 import java.util.List;

@@ -1,4 +1,4 @@
-package ort.assi.blp.io;
+package ort.assi.blp.io.instruction;
 
 public enum InstructionType {
     READ,
