@@ -1,7 +1,7 @@
 package ort.assi.blp.covertchannel;
 
 public class SequenceHandler {
-    private char[] sequence;
+    private final char[] sequence;
     private int index;
 
     public SequenceHandler(String sequence){

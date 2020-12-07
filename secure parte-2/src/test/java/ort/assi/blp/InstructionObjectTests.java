@@ -15,10 +15,10 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 @SpringBootTest
 public class InstructionObjectTests {
-    InstructionObject parser = new InstructionObject(new ReferenceMonitor());
+    final InstructionObject parser = new InstructionObject(new ReferenceMonitor());
 
     @Test
-    public void parsesReadInstruction() throws Exception {
+    public void parsesReadInstruction() {
         String instruction = "READ       hal   object";
 
         SysObject object = new SysObject("object");
@@ -27,7 +27,7 @@ public class InstructionObjectTests {
     }
 
     @Test
-    public void parsesWriteInstruction() throws Exception {
+    public void parsesWriteInstruction() {
         String instruction = "WRITE       hal   object  3";
 
         SysObject object = new SysObject("object");

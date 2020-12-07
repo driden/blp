@@ -7,9 +7,9 @@ import java.io.IOException;
 import java.util.BitSet;
 
 public class ReceiveContext {
-    private BitSet bits;
+    private final BitSet bits;
     private Integer currentBit;
-    private String filePath;
+    private final String filePath;
 
     public ReceiveContext(String filePath){
         bits = new BitSet();

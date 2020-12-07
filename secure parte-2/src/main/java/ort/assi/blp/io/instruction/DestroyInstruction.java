@@ -12,11 +12,6 @@ public class DestroyInstruction extends Instruction {
     }
 
     @Override
-    public String getMessage() {
-        return null;
-    }
-
-    @Override
     public Integer execute(SysSubject subject, SysObject object, ObjectManager manager) {
         var storedObj = manager.getObject(object.getName());
         if (!canDo(subject,object,manager)) return 0;
@@ -25,8 +20,7 @@ public class DestroyInstruction extends Instruction {
         return 1;
     }
 
-    @Override
-    public Boolean canDo(SysSubject subject, SysObject object, ObjectManager manager) {
+    private Boolean canDo(SysSubject subject, SysObject object, ObjectManager manager) {
         var storedObj = manager.getObject(object.getName());
         return (storedObj != null && storedObj.getSecurityTag().dominates(subject.getClearance()));
     }

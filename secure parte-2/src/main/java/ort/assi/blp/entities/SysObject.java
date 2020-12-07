@@ -30,10 +30,6 @@ public class SysObject {
         return name;
     }
 
-    public void setName(String name, SecurityLevel tag) {
-        this.name = name;
-    }
-
     public SecurityLevel getSecurityTag() {
         return securityTag;
     }
@@ -51,7 +47,4 @@ public class SysObject {
         return Objects.hash(getName());
     }
 
-    public String getStatusMessage(){
-        return name + " has value: " + value.toString();
-    }
 }

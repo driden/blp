@@ -23,10 +23,6 @@ public class ObjectManager {
         return this.objects.containsKey(name);
     }
 
-    public List<SysObject> getAllObjects() {
-        return objects.values().stream().collect(Collectors.toUnmodifiableList());
-    }
-
     public void destroyObject(SysObject object) {
         this.objects.remove(object.getName());
     }

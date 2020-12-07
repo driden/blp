@@ -18,18 +18,8 @@ public class BadInstruction extends Instruction {
     }
 
     @Override
-    public String getMessage() {
-        return "Bad Instruction";
-    }
-
-    @Override
     public Integer execute(SysSubject subject, SysObject object, ObjectManager manager) {
         return -1;
-    }
-
-    @Override
-    public Boolean canDo(SysSubject subject, SysObject object, ObjectManager manager) {
-        return false;
     }
 
 }

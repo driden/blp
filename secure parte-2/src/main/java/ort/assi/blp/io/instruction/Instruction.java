@@ -20,16 +20,8 @@ public abstract class Instruction {
         return object;
     }
 
-    public void setObject(SysObject object) {
-        this.object = object;
-    }
-
     public SysSubject getSubject() {
         return subject;
-    }
-
-    public void setSubject(SysSubject subject) {
-        this.subject = subject;
     }
 
     public Integer getObjectValue() {
@@ -51,7 +43,5 @@ public abstract class Instruction {
         return Objects.hash(getType(), getObject(), getSubject(), getObjectValue());
     }
 
-    public abstract String getMessage();
     public abstract Integer execute(SysSubject subject, SysObject object, ObjectManager manager);
-    public abstract Boolean canDo(SysSubject subject, SysObject object, ObjectManager manager);
 }

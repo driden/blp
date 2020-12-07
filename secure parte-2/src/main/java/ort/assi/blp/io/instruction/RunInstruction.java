@@ -11,18 +11,9 @@ public class RunInstruction extends Instruction {
     }
 
     @Override
-    public String getMessage() {
-        return null;
-    }
-
-    @Override
     public Integer execute(SysSubject subject, SysObject object, ObjectManager manager) {
         subject.run();
         return -1;
     }
 
-    @Override
-    public Boolean canDo(SysSubject subject, SysObject object, ObjectManager manager) {
-        return true;
-    }
 }

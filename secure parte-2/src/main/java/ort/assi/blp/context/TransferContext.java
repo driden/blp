@@ -3,7 +3,7 @@ package ort.assi.blp.context;
 import java.util.BitSet;
 
 public class TransferContext {
-    private BitSet bits;
+    private final BitSet bits;
     private int index;
 
     public TransferContext(BitSet bits) {

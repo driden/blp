@@ -12,17 +12,8 @@ public class ReadInstruction extends Instruction {
     }
 
     @Override
-    public String getMessage() {
-        return super.subject.getName() + " reads " + super.object.getName();
-    }
-
-    @Override
     public Integer execute(SysSubject subject, SysObject object, ObjectManager manager) {
         return subject.readObject(object);
     }
 
-    @Override
-    public Boolean canDo(SysSubject subject, SysObject object, ObjectManager manager) {
-        return subject.getClearance().dominates(object.getSecurityTag());
-    }
 }

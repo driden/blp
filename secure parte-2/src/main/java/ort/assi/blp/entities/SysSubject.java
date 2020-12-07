@@ -57,10 +57,6 @@ public class SysSubject {
         return this.temp;
     }
 
-    public String getStatusMessage(){
-        return name + " has recently read: " + temp.toString();
-    }
-
     public Integer run(){
         return this.function.get();
     }
