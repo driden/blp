@@ -1,5 +1,6 @@
 package ort.assi.blp.io.instruction;
 
+import ort.assi.blp.entities.ObjectManager;
 import ort.assi.blp.entities.SysObject;
 import ort.assi.blp.entities.SysSubject;
 
@@ -28,4 +29,14 @@ public class WriteInstruction extends Instruction {
         return subject.getName() + " writes value " + object.getValue() + " to " + object.getName();
     }
 
+    @Override
+    public Integer execute(SysSubject subject, SysObject object, ObjectManager manager) {
+        if (!canDo(subject, object, manager)) return 0;
+        return subject.writeObject(object, objectValue);
+    }
+
+    @Override
+    public Boolean canDo(SysSubject subject, SysObject object, ObjectManager manager) {
+        return object.getSecurityTag().dominates(subject.getClearance());
+    }
 }

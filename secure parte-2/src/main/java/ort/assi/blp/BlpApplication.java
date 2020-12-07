@@ -10,7 +10,6 @@ import ort.assi.blp.covertchannel.SequenceHandler;
 import ort.assi.blp.entities.SysObject;
 import ort.assi.blp.io.instruction.CreateInstruction;
 import ort.assi.blp.io.instruction.DestroyInstruction;
-import ort.assi.blp.io.instruction.WriteInstruction;
 import ort.assi.blp.secure.SecureSystem;
 import ort.assi.blp.secure.SecurityLevel;
 
@@ -24,6 +23,7 @@ import java.util.BitSet;
 public class BlpApplication implements CommandLineRunner {
     private TransferContext transferContext;
     private ReceiveContext receiveContext;
+    private final String RESULT_FILE = "result.txt";
 
     public static void main(String[] args) {
         SpringApplication.run(BlpApplication.class, args);
@@ -40,7 +40,9 @@ public class BlpApplication implements CommandLineRunner {
         var sequenceFile = args.length > 1 ? args[1] : "test-files/secuencia.txt";
         String sequence = readSequence(sequenceFile);
         transferContext = new TransferContext(readFileToTransfer(fileToTransfer));
-        receiveContext = new ReceiveContext("result.txt");
+
+        Files.deleteIfExists(Path.of(RESULT_FILE));
+        receiveContext = new ReceiveContext(RESULT_FILE);
         var secureSys = new SecureSystem(new SequenceHandler(sequence));
         loadSecureSystemData(secureSys);
         secureSys.run();
@@ -53,28 +55,23 @@ public class BlpApplication implements CommandLineRunner {
         var hal = secureSystem.createSubject("hal", SecurityLevel.HIGH);
 
         lyle.setFunction(() -> {
-            if (lyle.getCanAct()){
-                var createResult = secureSystem.execute(
-                        new CreateInstruction(lyle, new SysObject(secureSystem.TRANSFER_OBJ)));
-                var bit = createResult == 1;
-                receiveContext.receive(bit);
-                secureSystem.execute(new DestroyInstruction(lyle, new SysObject(secureSystem.TRANSFER_OBJ)));
-                return 1;
-            }
-            return 0;
+            if (!lyle.getCanAct()) return 0;
+            var createResult = secureSystem.execute(
+                    new CreateInstruction(lyle, new SysObject(secureSystem.TRANSFER_OBJ)));
+            var bit = createResult == 1;
+            receiveContext.receive(bit);
+            secureSystem.execute(new DestroyInstruction(lyle, new SysObject(secureSystem.TRANSFER_OBJ)));
+            return 1;
         });
 
         hal.setFunction(() -> {
-            if (hal.getCanAct()){
-                if (transferContext.hasNext()){
-                    if (!transferContext.getNext()){
-                        secureSystem.execute(
-                                new CreateInstruction(hal, new SysObject(secureSystem.TRANSFER_OBJ)));
-                    }
-                }else{
-                    return 1;
-                }
+            if (!hal.getCanAct()) return 0;
+            if (!transferContext.hasNext()) return 1;
+            if (!transferContext.getNext()) {
+                secureSystem.execute(
+                        new CreateInstruction(hal, new SysObject(secureSystem.TRANSFER_OBJ)));
             }
+
             return 0;
         });
 

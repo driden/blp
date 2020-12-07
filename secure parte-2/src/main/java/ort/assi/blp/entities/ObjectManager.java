@@ -9,8 +9,7 @@ import java.util.stream.Collectors;
 public class ObjectManager {
     private final HashMap<String, SysObject> objects = new HashMap<>();
 
-    public ObjectManager() {
-    }
+    public ObjectManager() { }
 
     public SysObject getObject(String objectName) {
         return objects.get(objectName);

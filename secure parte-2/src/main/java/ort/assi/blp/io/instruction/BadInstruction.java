@@ -1,5 +1,9 @@
 package ort.assi.blp.io.instruction;
 
+import ort.assi.blp.entities.ObjectManager;
+import ort.assi.blp.entities.SysObject;
+import ort.assi.blp.entities.SysSubject;
+
 public class BadInstruction extends Instruction {
     public BadInstruction() {
         type = InstructionType.BAD;
@@ -17,4 +21,15 @@ public class BadInstruction extends Instruction {
     public String getMessage() {
         return "Bad Instruction";
     }
+
+    @Override
+    public Integer execute(SysSubject subject, SysObject object, ObjectManager manager) {
+        return -1;
+    }
+
+    @Override
+    public Boolean canDo(SysSubject subject, SysObject object, ObjectManager manager) {
+        return false;
+    }
+
 }

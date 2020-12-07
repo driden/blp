@@ -2,7 +2,6 @@ package ort.assi.blp.entities;
 
 import ort.assi.blp.secure.SecurityLevel;
 
-import java.util.function.Consumer;
 import java.util.function.Supplier;
 
 public class SysSubject {

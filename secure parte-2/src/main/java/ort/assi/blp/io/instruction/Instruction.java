@@ -1,5 +1,6 @@
 package ort.assi.blp.io.instruction;
 
+import ort.assi.blp.entities.ObjectManager;
 import ort.assi.blp.entities.SysObject;
 import ort.assi.blp.entities.SysSubject;
 
@@ -51,4 +52,6 @@ public abstract class Instruction {
     }
 
     public abstract String getMessage();
+    public abstract Integer execute(SysSubject subject, SysObject object, ObjectManager manager);
+    public abstract Boolean canDo(SysSubject subject, SysObject object, ObjectManager manager);
 }

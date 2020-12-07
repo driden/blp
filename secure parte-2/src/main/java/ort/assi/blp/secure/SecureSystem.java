@@ -16,7 +16,6 @@ import java.util.stream.Collectors;
 public class SecureSystem {
     private final ReferenceMonitor referenceMonitor;
 
-    private InstructionObject parser;
     private final HashMap<String, SysSubject> subjects = new HashMap<>();
     private final SequenceHandler sequenceHandler;
     public static final String SYNC_OBJ = "objSync";
@@ -24,7 +23,6 @@ public class SecureSystem {
 
     public SecureSystem(SequenceHandler sequenceHandler) {
         referenceMonitor = new ReferenceMonitor();
-        parser = new InstructionObject(referenceMonitor);
         this.sequenceHandler = sequenceHandler;
     }
 
@@ -39,14 +37,6 @@ public class SecureSystem {
         return subjects.get(subjectName);
     }
 
-    public void printState(Instruction instruction) {
-        System.out.println(instruction.getMessage());
-        System.out.println("The current state is:");
-        referenceMonitor.getAllObjects().forEach(object -> System.out.println("\t" + object.getStatusMessage()));
-        referenceMonitor.getAllSubjects().forEach(subject -> System.out.println("\t" + subject.getStatusMessage()));
-        System.out.println();
-    }
-
     public void run() {
         var hal = getSubject("hal");
         var lyle = getSubject("lyle");
@@ -59,8 +49,7 @@ public class SecureSystem {
                     var createResult = referenceMonitor.executeInstruction(
                             new CreateInstruction(hal, new SysObject(SYNC_OBJ)));
                     hal.setCanAct(createResult == 1);
-                    var runResult = hal.run();
-                    if (runResult == 1) {
+                    if (hal.run() == 1) {
                         referenceMonitor.executeInstruction(
                                 new DestroyInstruction(hal, new SysObject(SYNC_OBJ)));
                     }
@@ -72,7 +61,6 @@ public class SecureSystem {
                     lyle.run();
                     break;
                 default:
-                    ;
             }
         }
     }

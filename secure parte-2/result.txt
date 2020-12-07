@@ -1,2 +1,3 @@
-- Clase que genera instrucciones dependiendo de quien ejecuta
-  - Función para parsear secuencia 
+Este es el texto para el canal encubierto.
+Si logran transmitirlo, sin trampas, aprueban.
+Suerte.
