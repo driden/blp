@@ -10,9 +10,9 @@
 	</parent>
 	<groupId>ort.assi</groupId>
 	<artifactId>blp</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>blp</name>
-	<description>Obligatorio ASSI</description>
+	<description>Obligatorio ASSI - parte 2</description>
 
 	<properties>
 		<java.version>11</java.version>

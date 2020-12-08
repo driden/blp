@@ -30,7 +30,7 @@ public class BlpApplication implements CommandLineRunner {
             return;
         }
 
-        var sequenceFile = args.length > 1 ? args[1] : "test-files/secuencia.txt";
+        var sequenceFile = args.length > 1 ? args[1] : "secuencia.txt";
         String sequence = readSequence(sequenceFile);
         TransferContext transferContext = new TransferContext(readFileToTransfer(fileToTransfer));
 
