@@ -36,6 +36,7 @@ public class BlpApplication implements CommandLineRunner {
 
         String RESULT_FILE = "result.txt";
         Files.deleteIfExists(Path.of(RESULT_FILE));
+        Files.deleteIfExists(Path.of("log.txt"));
         ReceiveContext receiveContext = new ReceiveContext(RESULT_FILE);
         var secureSys = new SecureSystem(new SequenceHandler(sequence));
         loadSecureSystemData(secureSys);

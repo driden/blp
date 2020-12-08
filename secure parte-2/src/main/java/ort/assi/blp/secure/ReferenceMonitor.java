@@ -5,6 +5,7 @@ import ort.assi.blp.entities.SysObject;
 import ort.assi.blp.entities.SysSubject;
 import ort.assi.blp.io.instruction.Instruction;
 
+import java.io.IOException;
 import java.util.HashMap;
 
 public class ReferenceMonitor {

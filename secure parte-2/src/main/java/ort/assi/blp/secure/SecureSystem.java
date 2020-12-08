@@ -34,7 +34,9 @@ public class SecureSystem {
     public void run(ReceiveContext receiveContext, TransferContext transferContext) {
         var hal = getSubject("hal");
         var lyle = getSubject("lyle");
+        var moe = getSubject("moe");
 
+        moe.setFunction(()->{ return -1;});
         var covertChannel = new CovertChannel(hal, lyle, sequenceHandler, referenceMonitor);
         covertChannel.syncAndTransmitData(receiveContext, transferContext);
     }

@@ -13,7 +13,16 @@ public class ReadInstruction extends Instruction {
 
     @Override
     public Integer execute(SysSubject subject, SysObject object, ObjectManager manager) {
+        logMessage();
         return subject.readObject(object);
     }
+
+    @Override
+    public String getMessage() {
+        return String.format("READ %s %s\n", subject.getName(), object.getName());
+    }
+
+
+
 
 }

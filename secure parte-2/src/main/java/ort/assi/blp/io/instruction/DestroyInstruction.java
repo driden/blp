@@ -16,8 +16,14 @@ public class DestroyInstruction extends Instruction {
         var storedObj = manager.getObject(object.getName());
         if (!canDo(subject,object,manager)) return 0;
 
+        logMessage();
         manager.destroyObject(storedObj);
         return 1;
+    }
+
+    @Override
+    public String getMessage() {
+        return String.format("DESTROY %s %s\n", subject.getName(), object.getName());
     }
 
     private Boolean canDo(SysSubject subject, SysObject object, ObjectManager manager) {

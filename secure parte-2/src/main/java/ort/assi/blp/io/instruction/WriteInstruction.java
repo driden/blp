@@ -27,7 +27,13 @@ public class WriteInstruction extends Instruction {
     @Override
     public Integer execute(SysSubject subject, SysObject object, ObjectManager manager) {
         if (!canDo(subject, object, manager)) return 0;
+        logMessage();
         return subject.writeObject(object, objectValue);
+    }
+
+    @Override
+    public String getMessage() {
+        return  String.format("WRITE %s %s %s\n", subject.getName(), object.getName(), objectValue);
     }
 
     private Boolean canDo(SysSubject subject, SysObject object, ObjectManager manager) {

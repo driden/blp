@@ -19,7 +19,13 @@ public class BadInstruction extends Instruction {
 
     @Override
     public Integer execute(SysSubject subject, SysObject object, ObjectManager manager) {
+        logMessage();
         return -1;
+    }
+
+    @Override
+    public String getMessage() {
+        return "BAD INSTRUCTION";
     }
 
 }

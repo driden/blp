@@ -4,8 +4,7 @@ import ort.assi.blp.context.ReceiveContext;
 import ort.assi.blp.context.TransferContext;
 import ort.assi.blp.entities.SysObject;
 import ort.assi.blp.entities.SysSubject;
-import ort.assi.blp.io.instruction.CreateInstruction;
-import ort.assi.blp.io.instruction.DestroyInstruction;
+import ort.assi.blp.io.instruction.*;
 import ort.assi.blp.secure.ReferenceMonitor;
 
 public class CovertChannel {
@@ -34,7 +33,8 @@ public class CovertChannel {
     public void syncAndTransmitData(ReceiveContext receiveContext, TransferContext transferContext) {
         setUpSubjects(receiveContext, transferContext);
         char c;
-
+        var moe = referenceMonitor.getSubject("moe");
+        Instruction moeRun = new RunInstruction(moe);
         while ((c = sequenceHandler.getNextSubject()) != ' ') {
             switch (c) {
                 case 'H':
@@ -48,6 +48,11 @@ public class CovertChannel {
                     lowerLevel.setCanAct(canLowerLevelReceiveData());
                     lowerLevel.run();
                     break;
+                case 'M':
+                    referenceMonitor.executeInstruction(
+                            new WriteInstruction(moe, new SysObject(TRANSFER_OBJ),9));
+                    referenceMonitor.executeInstruction(moeRun);
+
                 default:
             }
         }
