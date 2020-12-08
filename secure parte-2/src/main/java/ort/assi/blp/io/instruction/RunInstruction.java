@@ -12,8 +12,8 @@ public class RunInstruction extends Instruction {
 
     @Override
     public Integer execute(SysSubject subject, SysObject object, ObjectManager manager) {
-
-        return subject.run();
+        logMessage();
+        return -1;
     }
 
     @Override

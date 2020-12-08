@@ -34,24 +34,23 @@ public class CovertChannel {
         setUpSubjects(receiveContext, transferContext);
         char c;
         var moe = referenceMonitor.getSubject("moe");
-        Instruction moeRun = new RunInstruction(moe);
         while ((c = sequenceHandler.getNextSubject()) != ' ') {
             switch (c) {
                 case 'H':
                     higherLevel.setCanAct(canHigherLevelSendData());
-                    if (higherLevel.run() == 1) {
+                    if (higherLevel.execute() == 1) {
                         referenceMonitor.executeInstruction(
                                 new DestroyInstruction(higherLevel, new SysObject(SYNC_OBJ)));
                     }
                     break;
                 case 'L':
                     lowerLevel.setCanAct(canLowerLevelReceiveData());
-                    lowerLevel.run();
+                    lowerLevel.execute();
                     break;
                 case 'M':
                     referenceMonitor.executeInstruction(
                             new WriteInstruction(moe, new SysObject(TRANSFER_OBJ),9));
-                    referenceMonitor.executeInstruction(moeRun);
+                    referenceMonitor.executeInstruction(new RunInstruction(moe));
 
                 default:
             }
@@ -77,13 +76,17 @@ public class CovertChannel {
                     new CreateInstruction(lowerLevel, new SysObject(TRANSFER_OBJ)));
             var bit = createResult == 1;
             receiveContext.receive(bit);
+            referenceMonitor.executeInstruction(new WriteInstruction(lowerLevel, new SysObject(TRANSFER_OBJ), 1));
+            referenceMonitor.executeInstruction(new ReadInstruction(lowerLevel, new SysObject(TRANSFER_OBJ)));
             referenceMonitor.executeInstruction(new DestroyInstruction(lowerLevel, new SysObject(TRANSFER_OBJ)));
+            referenceMonitor.executeInstruction(new RunInstruction(lowerLevel));
             return 1;
         });
 
         higherLevel.setFunction(() -> {
             if (!higherLevel.getCanAct()) return 0;
             if (!transferContext.hasNext()) return 1;
+            referenceMonitor.executeInstruction(new RunInstruction(higherLevel));
             if (!transferContext.getNext()) {
                 referenceMonitor.executeInstruction(
                         new CreateInstruction(higherLevel, new SysObject(TRANSFER_OBJ)));

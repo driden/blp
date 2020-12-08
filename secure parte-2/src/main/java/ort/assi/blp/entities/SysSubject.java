@@ -57,7 +57,7 @@ public class SysSubject {
         return this.temp;
     }
 
-    public Integer run(){
+    public Integer execute(){
         return this.function.get();
     }
 
