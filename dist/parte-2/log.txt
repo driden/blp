@@ -1,0 +1,6340 @@
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+CREATE hal obj
+DESTROY lyle objSync
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+RUN hal
+DESTROY lyle objSync
+CREATE lyle obj
+WRITE lyle obj 1
+READ lyle obj
+DESTROY lyle obj
+RUN lyle
+CREATE hal objSync
+DESTROY hal objSync
+CREATE hal objSync
+DESTROY hal objSync
+CREATE hal objSync
+DESTROY hal objSync
+CREATE hal objSync
+DESTROY hal objSync
+CREATE hal objSync
+DESTROY hal objSync
+CREATE hal objSync
+DESTROY hal objSync
+CREATE hal objSync
+DESTROY hal objSync
+CREATE hal objSync
+DESTROY hal objSync
+CREATE hal objSync
+DESTROY hal objSync
+CREATE hal objSync
+DESTROY hal objSync
